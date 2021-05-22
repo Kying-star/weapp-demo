@@ -4,11 +4,11 @@ import { AtButton } from 'taro-ui'
 
 import "taro-ui/dist/style/components/button.scss" // 按需引入
 import './index.scss'
-const Other = () => {
+const Temp = () => {
   return (
-    <View className='lock'>
-      other
+    <View className='temp'>
+      temp
     </View>
   )
 }
-export default Other
+export default Temp
