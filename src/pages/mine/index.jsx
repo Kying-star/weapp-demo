@@ -7,7 +7,10 @@ import './index.scss'
 
 const Mine = () => {
   return (
-    <View className="Mine">Mine</View>
+    <View className="Mine">
+      {/* <View className="Mine-bk"></View>
+      <View></View> */}
+    </View>
   )
 }
 export default Mine

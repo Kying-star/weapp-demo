@@ -1,1 +1,188 @@
-.lock {}
+    @import "~taro-ui/dist/style/components/float-layout.scss";
+    @import "~taro-ui/dist/style/components/modal.scss";
+    .lock {
+        height: 100vh;
+        width: 100vw;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lock-default {
+        margin-top: 222px;
+    }
+    
+    .lock-locked {
+        width: 353px;
+        height: 353px;
+        background: #CCE7F6;
+        border-radius: 50%;
+        opacity: 1;
+        background-image: url("https://tva1.sinaimg.cn/large/008i3skNly1gqreh6fc55j30ba0c274v.jpg");
+        background-size: cover;
+    }
+    
+    .lock-lock-off {
+        width: 353px;
+        height: 353px;
+        background: #CCE7F6;
+        border-radius: 50%;
+        opacity: 1;
+        background-image: url("https://tva1.sinaimg.cn/large/008i3skNly1gqreixd1mlj30ba0beaal.jpg");
+        background-size: cover;
+    }
+    
+    .lock-button {
+        margin-top: 106px;
+        text-align: center;
+        width: 385px;
+        height: 85px;
+        border: 3px solid #1348B3;
+        opacity: 1;
+        border-radius: 43px;
+        font-size: 32px;
+        font-family: PingFang SC;
+        font-weight: 800;
+        line-height: 85px;
+        color: #1348B3;
+        opacity: 1;
+    }
+    
+    .lock-year {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: flex-end;
+        .lock-buttons {
+            text-align: center;
+            width: 130px;
+            height: 49px;
+            background: #517CD6;
+            opacity: 1;
+            border-radius: 33px;
+            font-size: 25px;
+            font-family: PingFang SC;
+            font-weight: 800;
+            line-height: 49px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+    }
+    
+    .lock-block1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        font-family: PingFang SC;
+        font-weight: 800;
+        line-height: 36px;
+        color: #517CD6;
+        opacity: 1;
+    }
+    
+    .lock-font1 {
+        margin-left: 37px;
+        width: 181px;
+        height: 36px;
+        font-size: 25px;
+        font-family: PingFang SC;
+        font-weight: 800;
+        line-height: 36px;
+        color: #517CD6;
+        opacity: 1;
+    }
+    
+    .lock-font2 {
+        margin-left: 412px;
+    }
+    
+    .lock-font-3 {
+        font-size: 25px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        line-height: 36px;
+        color: #9A9FB5;
+        opacity: 1;
+    }
+    
+    .split {
+        width: 11px;
+        height: 66px;
+        background: #517CD6;
+        opacity: 1;
+        border-radius: 33px;
+    }
+    
+    .lock-modal {
+        display: flex;
+        flex-direction: column;
+        width: 547px;
+        height: 340px;
+        background: #FFFFFF;
+        box-shadow: 0px 3px 6px rgba(132, 132, 132, 0.45);
+        opacity: 1;
+        border-radius: 30px;
+    }
+    
+    .lock-modal-1 {
+        .img {
+            margin-top: 24px;
+            margin-left: 27px;
+            width: 50px;
+            height: 50px;
+            background: #9A9FB5;
+            opacity: 1;
+            background-image: url('https://tva1.sinaimg.cn/large/008i3skNly1gqrfrcvef3j302001ujr8.jpg');
+            background-size: cover;
+        }
+    }
+    
+    .lock-modal-title {
+        text-align: center;
+        font-size: 35px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        line-height: 49px;
+        color: #333333;
+        opacity: 1;
+    }
+    
+    .lock-modal-block {
+        margin-top: 61px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .locl-modal-reject {
+        margin-right: 61px;
+        text-align: center;
+        width: 172px;
+        height: 66px;
+        border: 2px solid #1348B3;
+        opacity: 1;
+        border-radius: 33px;
+        border-radius: 30px;
+        font-size: 25px;
+        font-family: PingFang SC;
+        font-weight: 800;
+        line-height: 66px;
+        color: #1348B3;
+        opacity: 1;
+    }
+    
+    .locl-modal-resolve {
+        margin-left: 61px;
+        text-align: center;
+        width: 172px;
+        height: 66px;
+        background: #1348B3;
+        opacity: 1;
+        border-radius: 33px;
+        font-size: 25px;
+        font-family: PingFang SC;
+        font-weight: 800;
+        line-height: 66px;
+        color: #FFFFFF;
+        opacity: 1;
+    }

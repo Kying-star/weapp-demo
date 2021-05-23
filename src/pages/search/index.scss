@@ -1,0 +1,62 @@
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/tabs.scss";
+.search {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2F2F2;
+}
+
+.search-block {
+    height: 150px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .search-input {
+        width: 600px;
+    }
+    .scanf {
+        width: 65.35px;
+        height: 65.35px;
+        margin-right: 29px;
+        background-image: url("https://tva1.sinaimg.cn/large/008i3skNly1gqsem6go23j302c02ijr6.jpg");
+        background-size: cover;
+    }
+    .tab-inner {
+        width: 100vw;
+        height: 981px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.tab-inner-1 {
+    width: 100vw;
+    height: 981px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://tva1.sinaimg.cn/large/008i3skNly1gqsf6f2hqbj30nw0v6jt2.jpg');
+    background-size: cover;
+}
+
+.tab-inner-2 {
+    width: 100vw;
+    height: 981px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://tva1.sinaimg.cn/large/008i3skNly1gqsf9dwdsfj30nq0v4di1.jpg');
+    background-size: cover;
+}
+
+.search-1 {
+    width: 750px;
+    height: 981px;
+    background-image: url("vhttps://tva1.sinaimg.cn/large/008i3skNly1gqsf24r09zj30ku0q2jsw.jpg");
+    background-size: cover;
+    z-index: 999;
+}

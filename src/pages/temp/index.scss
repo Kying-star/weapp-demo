@@ -1,0 +1,72 @@
+@import "~taro-ui/dist/style/components/switch.scss";
+@import "~taro-ui/dist/style/components/slider.scss";
+.temp {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temp-font1 {
+    font-size: 50px;
+    font-family: PingFang SC;
+    font-weight: 800;
+    line-height: 70px;
+    color: #1348B3;
+    opacity: 1;
+}
+
+.temp-title {
+    text-align: center;
+    background: #F2F2F2;
+    opacity: 1;
+    font-size: 28px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 40px;
+    color: #2D2D2D;
+    opacity: 1;
+    margin-top: 45px;
+}
+
+.round {
+    transform: translateY(-115px);
+    width: 431px;
+    height: 431px;
+    border: 2px solid #DDDDDD;
+    box-shadow: 6px 6px 40px rgba(0, 0, 0, 0.16);
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.at-switch {
+    background-color: transparent;
+}
+
+.at-switch__container {
+    background-color: transparent;
+}
+
+.slider {
+    width: 690px;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp-num {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 25px;
+    color: #517CD6;
+    opacity: 1;
+}

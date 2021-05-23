@@ -1,0 +1,29 @@
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/tabs.scss";
+.Address {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F2F2F2;
+}
+
+.add-inner-1 {
+    width: 100vw;
+    height: 981px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://tva1.sinaimg.cn/large/008i3skNly1gqsfvug6vtj30ns0y8q4q.jpg');
+    background-size: cover;
+}
+
+.add-inner-2 {
+    width: 100vw;
+    height: 981px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://tva1.sinaimg.cn/large/008i3skNly1gqsfzttsilj30nu0yetd2.jpg');
+    background-size: cover;
+}

@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-05-22 15:01:03
- * @LastEditTime: 2021-05-22 18:19:38
+ * @LastEditTime: 2021-05-23 15:21:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /app/src/app.config.js
@@ -12,6 +12,10 @@ export default {
         'pages/other/index',
         'pages/mine/index',
         'pages/temp/index',
+        'pages/search/index',
+        'pages/address/index',
+        'pages/scanf/index',
+        'pages/nearly/index',
     ],
     window: {
         backgroundTextStyle: 'light',
